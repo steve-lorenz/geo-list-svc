@@ -4,6 +4,7 @@
   "description": "GraphQL service for geo-list location based shopping",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon --exec babel-node src/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
